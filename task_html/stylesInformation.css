@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(task_html/asset/WallpaperForm.jpg);
+}
+.information-container {
+  position: relative;
+  max-width: 1000px;
+  min-width: 1000px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  margin: 0 auto;
+}
+.information-container header {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px;
+  border: 1px solid black;
+  table-layout: fixed;
+}
+.table th,
+td {
+  padding: 15px;
+}
+.table th {
+  background-color: rgba(195, 225, 240, 0.3);
+}
+.table tr:nth-child(odd) {
+  background-color: rgba(125, 145, 145, 0.3);
+}
+.table tbody td:hover {
+  background-color: rgba(25, 90, 90, 0.3);
+  transition: background-color 0.3s;
+}
+.total td {
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(195, 225, 240, 0.3);
+}
